@@ -14,5 +14,5 @@ A fully customizable and responsive web template for MikroTik Hotspot login page
 ## Place your logo inside direcotry
 
 - hotspot
-	├── assets
-			├── img → Rename you image to logo-image.png
+|	|- assets
+|	|	|- img → Rename you image to logo-image.png
