@@ -59,7 +59,7 @@ $(endif)
 	    <form name="login" class="form-signin" action="$(link-login-only)" method="post" novalidate $(if chap-id) onSubmit="return doLogin()" $(endif >
         <input type="hidden" name="dst" value="$(link-orig)" />
 		<input type="hidden" name="popup" value="true" />
-		<img class="customerlogo" src="assets/img/basera-boutique-hotel.png"> <br>
+		<img class="customerlogo" src="assets/img/logo-image.png"> <br>
 		$(if trial == 'yes')<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">Trail Now</a>$(endif)
 		<h3 class="form-signin-heading" align="center">Wi-Fi Login</h3>
 		<!-- Disable User consent and enable form field
@@ -76,7 +76,7 @@ $(endif)
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit" id="submit" >Submit</button>
-		<p class="style1" align="center"><br>Operated by <!--<a href="https://www.baseraboutiquehotel.com.np">--> <b>Basera Boutique Hotel</b> </a></p>
+		<p class="style1" align="center"><br>Operated by <!--<a href="https://url.example.com">--> <b>Example Hotel</b> </a></p>
 		$(if error)<br><div class="error">$(error)</div>$(endif)
       </form>
 	  
