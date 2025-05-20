@@ -10,3 +10,8 @@ A fully customizable and responsive web template for MikroTik Hotspot login page
 - Easy integration with MikroTik Router
 - Lightweight and fast-loading
 - Built with HTML, CSS, and JavaScript (no backend changes needed)
+
+## Folder Structure
+
+- hotspot
+	|- assets/img // Place you logo-image.png
