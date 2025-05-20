@@ -1,0 +1,58 @@
+/*	Style CSS
+	Customized by
+	@MilanSystems
+	www.milanshrestha.com.np
+*/	
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(90 63 47);
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.customerlogo {
+	max-width: 200px;
+	max-height: auto;
+	border-radius: 10px;	
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
